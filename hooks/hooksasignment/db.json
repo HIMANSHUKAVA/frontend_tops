@@ -1,0 +1,10 @@
+{
+    "fetch-data":[
+
+        {
+            "id" : 1,
+            "name" : "himanshu",
+            "cource" : "Java Full Stack Devlopment"
+        }
+    ]
+}
