@@ -1,0 +1,339 @@
+1 : What is JavaScript? Explain the role of JavaScript in web development
+-> JavaScript is scripting side language 
+-> it is most powerful language for development
+-> main role of JavaScript is funcationalitity provaiding in website
+-> JavaScript is able to create dynamic website
+->JavaScript is case sinsetive language
+-> it is provaide meny event like mouse , keybord etc
+-> there are two ways to implesment js in your website
+1)script tag in html 
+2)sepret file in js
+
+2 : How is JavaScript different from other programming languages like Python or
+Java?
+
+->javascript is scripting side language
+->javascript is only support in browser but in this time he support in node js
+-> javascript  syntax in easy and flexible for webdevlopment
+-> javascript is interpreted language
+
+3 : discuss the use of <script> tag in HTML. How can you link an external JavaScript
+file to an HTML document?
+
+->script tage is most importent for js execute 
+->there are three way to declare script tag
+1)head 
+-> first js load and after loading html content 
+-> html content is delay load because of script tag is define in head
+2)body 
+->first html load and after that js load
+3)globle declare
+-> it is same as head 
+->no other beifit
+
+javascript extention file is <script src="path"/> in linktag in html
+
+
+4 : What are variables in JavaScript? How do you declare a variable using var, let,
+and const?
+
+-> if you can store data temprory then we can use varieble
+-> variable like contaner you can store deta temprory
+->java script is provaide threee way to delacre veriable in your website
+-> 1)var 2)let 3)conts
+
+5 : Explain the different data types in JavaScript. Provide examples for each
+
+-> we have meny types of deta like numberic alphebetic chrectertype
+
+javascript is provaide many types of datatype 
+1)int 2)String 3) boolean 4) null 5) undefine
+
+var s = 2; int type 
+var s = "bike" String type 
+var s =  true boolean type deta 
+var s = null 
+var s; undefine
+
+6 :  What is the difference between undefined and null in JavaScript?
+
+undefine >
+javascript is provaide autometicaly 
+value mising 
+default value is function ki return value
+
+null >
+programer mennualy define kare
+no value present mate
+
+7 :What are the different types of operators in JavaScript? Explain with examples
+
+1)arithmetic opertetor
+-> it is use for perfoming methemetics operetion
+-> +,-,*,/..etc
+-> like two number sum mate 
+var a=10,b=20;
+var s = a+b;
+
+2) Comperision opertetor
+-> it use for perfoming compereing in two varieble
+-> <,>,=,== !,
+->like 
+var a = 19,
+if(a>18) elegible for vote 
+else it is not elegible
+
+3) logical operators
+
+it is use to combaine in Comperision
+&& , || , or , and 
+if(mark>80 && age>18) it is elegble for vote
+else not 
+
+4) Asignment operators
+
+it is use to asign valu and update value
++=,-=,*=
+
+8 : What is control flow in JavaScript? Explain how if-else statements work with
+anexample.
+
+condition state ment is most useful in website and real life
+if 2 or more condtion check karva mate teno use thay che 
+
+there are four way to execute flow statement 
+1) if 
+2) if else 
+3) else if 
+4)switch case 
+
+if 
+-> if you can check one condition then you can use if 
+
+if else 
+-> same as above but else part is when all conditions are false then else part is executed
+
+else if 
+-> 2 or more condition check then we can use else if 
+
+9 : Describe how switch statements work in JavaScript. When should you use a
+switch statement instead of if-else?
+
+Checks a single expression against multiple case values.
+
+Executes the matching case’s code block.
+
+Use break to stop execution; without it, cases “fall through.”
+
+default runs if no case matches.
+
+When to use:
+
+Use switch when comparing one variable to many fixed values.
+
+Use if-else for complex or range-based conditions.
+
+
+
+10 : Explain the different types of loops in JavaScript (for, while, do-while). Provide a
+basic example of each.
+
+loop is avoid repetation of code 
+
+if you print 1 to 10 you can use loop 
+
+there are four way to loop 
+1) for 2)while 3) do-while 4 ) for-each loop
+
+for(var - =1;i<=10;i++){log(i)}
+while(i<=10)
+do
+{
+
+}
+while(i<=10)
+
+11 : What is the difference between a while loop and a do-while loop?
+
+while loop 
+first conditio check and after that statement is print 
+
+do -while
+but this loop one time statement print without any condition check and this loop is first statemetn and after condition check 
+
+
+
+12 What are functions in JavaScript? Explain the syntax for declaring and calling a
+function
+
+function is set of code you can use any time 
+
+syntax 
+
+function add()
+{
+    //code
+}
+
+add(); // calling function inside the body
+
+first of all if you make function then we can use function keyword after provaide function name and function body ma code aapvo
+
+there are many types of function like 
+1) peramiterize function 
+2) return type function 
+
+
+13 : What is the difference between a function declaration and a function expression?
+
+function declaration
+
+function greet() { console.log("Hello"); }
+
+function expression
+const greet = function() { console.log("Hello"); };
+
+14 :  Discuss the concept of parameters and return values in functions
+
+Parameters: Variables listed in a function definition that receive values (arguments) when the function is called.
+
+Return Values: The data a function sends back using return; ends the function’s execution and passes the result to the caller.
+
+
+15 : What is an array in JavaScript? How do you declare and initialize an array
+
+array is a collection of deta and informetion
+
+var s[] ; that is declretion
+var s[] = {'apple'} intilizetion
+
+16 : Explain the methods push(), pop(), shift(), and unshift() used in arrays
+
+push() -  data insert mate 
+pop() - > deleat mate 
+shift -> remove first element
+unshift -  add element in start of array
+
+17 :  What is an object in JavaScript? How are objects different from arrays?
+
+Object: A collection of key–value pairs, where keys are strings (or symbols) and values can be any data type.
+
+Difference from Arrays:
+
+Objects store data as unordered key–value pairs.
+
+Arrays store data as ordered elements with numeric indexes.
+
+18 : Explain how to access and update object properties using dot notation and
+bracket notation.
+
+Dot Notation
+
+let obj = { name: "John" };
+console.log(obj.name); // Access → "John"
+obj.name = "Mike";     // Update
+
+Bracket Notation
+
+let obj = { name: "John" };
+console.log(obj["name"]); // Access → "John"
+obj["name"] = "Mike";     // Update
+
+
+19 : What are JavaScript events? Explain the role of event listeners
+
+javascript provaide meny types of event like mouse event keybord event 
+but event listeners is most populer in creating the website
+
+event listeners ne call nathi karvi padti te teni ander function create kare che tema many types che like click , mousehover , mouseout etc 
+
+20 : : How does the addEventListener() method work in JavaScript? Provide
+anexampl
+addEventListener() lets you attach a function (event handler) to an element so it runs when a specific event occurs, without overwriting existing handlers
+
+element.addEventListener(event, function, useCapture);
+
+
+21  : What is the DOM (Document Object Model) in JavaScript? How does JavaScript
+interact with the DOM?
+
+dom stend for document object model 
+dom e html ne browser ma tree structure ma load kare 
+
+example 
+document.getelementbyid("h1").innerhtml = "";
+
+22 : Explain the methods getElementById(), getElementsByClassName(), and
+querySelector() used to select elements from the DOM.
+
+1)getElementById(id)
+
+Selects one element with the given id.
+
+Returns a single element object or null if not found.
+
+2) getElementsByClassName(className)
+
+Selects all elements with the given class.
+
+Returns an HTMLCollection (array-like)
+
+3) querySelector(selector)
+
+Selects the first element matching the CSS selector.
+
+Can use #id, .class, or any valid CSS selector.
+
+23 : Explain the setTimeout() and setInterval() functions in JavaScript. How are
+theyused for timing events?
+
+setTimeout()
+-> amuk time set karya psi te execute thay like alert ma 5000 second timeout aapie to 5 second psi alert aave 
+
+setInterval()
+->like stopwatch 
+->1000 second aapya psi update thya kare
+
+24 :  Provide an example of how to use setTimeout() to delay an action by 2 seconds
+<button id ="s1"/>
+
+<script>
+function s()
+{
+    var d= document.getElementById("s1");
+
+    setTimeout({
+           d.alert("clicked")
+    } ,2000)
+}
+<script/>
+
+25 : What is error handling in JavaScript? Explain the try, catch, and finally
+blockswith an example
+
+error handling
+-> je progream na normal flow ne disturb kare 
+
+try
+{
+// logic
+}
+catch(e)
+{
+// error
+}
+
+finally
+aa ma lakhelu statement try -catch execute thay ke no thay but finally ma lakhelu statement execute thay j 
+
+26 :  Why is error handling important in JavaScript applications?
+
+Error handling is important in JavaScript because it:
+
+Prevents crashes – Stops the whole application from breaking when an error occurs.
+
+Improves user experience – Shows friendly error messages instead of blank screens or broken pages.
+
+Helps debugging – Makes it easier to find and fix issues.
+
+Ensures smooth flow – Allows the program to handle unexpected situations and continue running safely.
