@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.header-container
+{
+ display: flex;
+ background-color: lightcoral;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+
+
+}
+.website-logo
+{
+    margin: 0 auto;
+}
+.website-navbar ul
+{
+    display: flex;
+}
+.website-navbar ul li
+{
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px 0;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.website-font-icons
+{
+
+    margin: 10px;
+    padding: 3px;
+}
+
+
+@media (max-width: 768px) {
+
+    .header-container {
+        flex-direction: column;
+        /* sab vertically line me aa jayenge */
+        text-align: center;
+    }
+
+    .website-navbar ul {
+        flex-direction: column;
+        /* menu vertical ho jaye */
+        gap: 10px;
+    }
+
+    .website-logo {
+        margin: 10px 0;
+    }
+
+    .website-font-icons {
+        margin-top: 10px;
+    }
+}
+
+.sidebar-header
+{
+    width: 200px;
+    height: 70vh;
+    background-color: lightblue;
+    position: fixed;
+
+
+}
+.sidebar-header ul li
+{
+
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebar-header ul li:hover
+{
+    background-color: deepskyblue;
+}
+
+.main-content
+{
+    margin-left: 200px;
+    padding: 20px;
+}
+.card-body
+{
+    display: flex;
+    margin-left: 200px;
+    padding: 12px;
+
+
+}
+
+
+
+.card
+{
+    margin: 10px;
+    border: 1px solid gray;
+
+    width: 100%;
+}
+
+.card-img
+{
+    width: 100%;
+    height: 200px;
+}
+.card-img img{
+
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-section
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+
+
+}
+
